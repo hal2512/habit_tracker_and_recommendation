@@ -1,0 +1,18 @@
+# Core data science
+pandas
+numpy
+scikit-learn>=1.7
+matplotlib
+seaborn
+joblib
+python-dateutil
+
+# App
+streamlit
+
+# Voice (chat page): speech-to-text + offline text-to-speech
+# pyaudio needs the PortAudio system library (macOS: brew install portaudio,
+# Debian/Ubuntu: sudo apt install portaudio19-dev)
+SpeechRecognition
+pyaudio
+pyttsx3
